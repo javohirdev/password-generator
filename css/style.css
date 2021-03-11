@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(12, 12, 12);
+}
+
+.container{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(19, 19, 19);
+    margin: 150px 420px;
+    padding: 10px;
+}
+.titleText{
+    text-align: center;
+    font-family: system-ui;
+    color: #ffffff;
+}
+label{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+label .input{
+    padding: 10px;
+    border-radius: 0;
+    background-color: #ffffff;
+    border: none;
+    margin-right: 10px;
+}
+label .btn{
+    border-radius: 0;
+    background-color: #008000;
+    outline: none;
+    border: none;
+}
+label .btn:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
